@@ -9,7 +9,7 @@ anvil-core = { git = "https://github.com/foundry-rs/foundry", features = [
     "fastrlp",
     "serde",
 ] }
-ethers = { git = "https://github.com/gakonst/ethers-rs" }
-ethers-core = { git = "https://github.com/gakonst/ethers-rs" }
+ethers = { version = "2.0.2" }
+ethers-core = { version = "2.0.2" }
 
 primitive-types = { version = "0.12.1", features = ["rlp"] }
