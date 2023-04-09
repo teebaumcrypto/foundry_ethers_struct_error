@@ -1,0 +1,15 @@
+[package]
+name = "test-error"
+version = "0.1.0"
+license = "Apache-2.0"
+edition = "2018"
+
+[dependencies]
+anvil-core = { git = "https://github.com/foundry-rs/foundry", features = [
+    "fastrlp",
+    "serde",
+] }
+ethers = { git = "https://github.com/gakonst/ethers-rs" }
+ethers-core = { git = "https://github.com/gakonst/ethers-rs" }
+
+primitive-types = { version = "0.12.1", features = ["rlp"] }
